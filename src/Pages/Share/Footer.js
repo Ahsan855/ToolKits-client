@@ -4,7 +4,7 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer className="footer p-10 bg-[#8c8c8c] text-white">
+    <footer className="footer p-10 mt-10 bg-[#22a397] text-white">
       <div>
         <div className="max-w-screen-xl mx-auto mt-10 px-4 text-white">
           <div className=" flex max-w-xs mx-auto items-center justify-between">
@@ -90,21 +90,21 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <span className="footer-title">Services</span>
+        <span className="text-primary hover:underline text-xl font-bold">Services</span>
         <a className="link link-hover">Branding</a>
         <a className="link link-hover">Design</a>
         <a className="link link-hover">Marketing</a>
         <a className="link link-hover">Advertisement</a>
       </div>
       <div>
-        <span className="footer-title">Company</span>
+        <span className="text-primary hover:underline text-xl font-bold">Company</span>
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>
         <a className="link link-hover">Press kit</a>
       </div>
       <div>
-        <span className="footer-title">Legal</span>
+        <span className="text-primary hover:underline text-xl font-bold">Legal</span>
         <a className="link link-hover">Terms of use</a>
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
