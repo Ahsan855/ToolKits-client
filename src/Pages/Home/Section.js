@@ -5,6 +5,7 @@ import tools3 from "../../images/tools3.jpg";
 import section1 from "../../images/section1.jpg";
 import section2 from "../../images/section2.jpg";
 import Products from "../Product/Products";
+import Contact from "../Contact/Contact";
 
 
 const Section = () => {
@@ -28,6 +29,7 @@ const Section = () => {
         <div><img src={section1} alt="" /></div>
         <div><img src={section2} alt="" /></div>
       </div>
+      <Contact/>
     </>
   );
 };
