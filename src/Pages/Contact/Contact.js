@@ -15,7 +15,7 @@ const Contact = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">Submit</button>
+          <button className="btn btn-primary text-white">More..</button>
         </div>
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div className="text-primary text-3xl mt-3 text-center font-bold">Join</div>
@@ -55,14 +55,10 @@ const Contact = () => {
                 placeholder="Number"
                 class="input input-bordered"
               />
-              <label class="label">
-                <a href="#" class="label-text-alt link link-hover">
-                  Forgot password?
-                </a>
-              </label>
+              
             </div>
             <div class="form-control mt-6">
-              <button class="btn btn-primary">Login</button>
+              <button class="btn btn-primary text-white">Join Now</button>
             </div>
           </div>
         </div>
