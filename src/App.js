@@ -7,10 +7,9 @@ import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Home/Navbar";
 import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
-import Products from "./Pages/Products/Products";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 import Review from "./Pages/Review/Review";
 import Footer from "./Pages/Share/Footer";
-import Shop from "./Pages/Shop/Shop";
 import Signup from "./Pages/SignUp/Signup";
 
 function App() {
@@ -20,9 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/review" element={<Review />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
