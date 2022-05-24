@@ -50,7 +50,7 @@ const Signup = () => {
   // console.log(user?.user?.displayName);
   return (
     <div className="py-10 lg:py-36 max-w-7xl justify-center flex items-center mx-auto">
-      <div className="card w-2/4 mx-auto  shadow-2xl bg-base-100">
+      <div className="card md:w-2/4 mx-auto shadow-2xl bg-base-100">
         <div className="card-body">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="form-control">
@@ -154,7 +154,7 @@ const Signup = () => {
             <div className="form-control mt-6">
               <input
                 type="submit"
-                className="btn btn-primary"
+                className="btn btn-primary text-white"
                 value="Signup"
               />
             </div>

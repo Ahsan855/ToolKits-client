@@ -7,7 +7,7 @@ const Bannar = () => {
 
       <div className="hero">
         <div className="hero-content text-left">
-          <div className="text-left ml-[-160px]">
+          <div className="text-left md:ml-[-160px]">
             <h3 className="text-4xl text-white font-mono">Big Sale</h3>
             <h1 className="mb-5 text-5xl font-bold font-sans text-white">
               Hand Tools <br /> Power Saw Machine
