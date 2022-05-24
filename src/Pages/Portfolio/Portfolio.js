@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero min-h-screen bg-base-200 py-10">
       <div class="hero-content grid grid-cols-1 md:grid-cols-2">
         <div className="mt-[-160px]">
           <img
@@ -29,27 +29,48 @@ const Portfolio = () => {
             york in the contact from below or check me out.
           </p>
           <div>
-          <h1 class="text-2xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
-            About Me
-          </h1>
-          <h2 className="text-2xl font-bold">Name: Muhammad Ahsan Habib (Rifat)</h2>
-          <h2 className="text-xl"><span className="text-primary text-2xl">Email:</span> muhammadrifathasan9869@gmail.com</h2>
-          <h2 className="text-xl"><span className="text-primary text-2xl">Address:</span> Rajshahi,bogra, Bangladesh</h2>
-          <div className="text-center pt-4">
-          <span className="text-2xl text-primary font-bold text-center py-2 border-b-4 w-3xl mx-auto border-primary">My Skills</span><br />
-          <ul className="mt-4 text-left">
-            <li className="text-xl font-semibold">1. Html5</li>
-            <li className="text-xl font-semibold">2. Css3</li>
-            <li className="text-xl font-semibold">3. Bootstrap</li>
-            <li className="text-xl font-semibold">4. Tailwind</li>
-            <li className="text-xl font-semibold">5. JavaScript</li>
-            <li className="text-xl font-semibold">6. React</li>
-            <li className="text-xl font-semibold">7. Node js</li>
-            <li className="text-xl font-semibold">8. Mongodb</li>
-            <li className="text-xl font-semibold">9. Firebase</li>
-            <li className="text-xl font-semibold">10. DaisyUi</li>
-          </ul>
-          </div>
+            <h1 class="text-2xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
+              About Me
+            </h1>
+            <h2 className="text-2xl font-bold">
+              Name: Muhammad Ahsan Habib (Rifat)
+            </h2>
+            <h2 className="text-xl">
+              <span className="text-primary text-2xl">Email:</span>{" "}
+              muhammadrifathasan9869@gmail.com
+            </h2>
+            <h2 className="text-xl">
+              <span className="text-primary text-2xl">Address:</span>{" "}
+              Rajshahi,bogra, Bangladesh
+            </h2>
+            <div className="text-center pt-4">
+              <span className="text-2xl text-primary font-bold text-center py-2 border-b-4 w-3xl mx-auto border-primary">
+                My Skills
+              </span>
+              <br />
+
+              <div class="flex flex-col w-full lg:flex-row mt-5">
+                <div class="grid flex-grow card bg-base-100 rounded-box p-4">
+                  <ul className="text-left">
+                  <li className="text-xl font-semibold">1. Html5</li>
+                  <li className="text-xl font-semibold">2. Css3</li>
+                  <li className="text-xl font-semibold">3. Bootstrap</li>
+                  <li className="text-xl font-semibold">4. Tailwind</li>
+                  <li className="text-xl font-semibold">5. JavaScript</li>
+                  </ul>
+                </div>
+                <div class="divider lg:divider-horizontal"></div>
+                <div class="grid flex-grow card bg-base-100 rounded-box p-4">
+                  <ul className="text-left">
+                  <li className="text-xl font-semibold">6. React</li>
+                  <li className="text-xl font-semibold">7. Node js</li>
+                  <li className="text-xl font-semibold">8. Mongodb</li>
+                  <li className="text-xl font-semibold">9. Firebase</li>
+                  <li className="text-xl font-semibold">10. DaisyUi</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
           <div className=" flex mt-16 max-w-xs mx-auto items-center justify-between">
             <a
