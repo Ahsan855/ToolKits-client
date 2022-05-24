@@ -52,22 +52,34 @@ const Portfolio = () => {
               <div class="flex flex-col w-full lg:flex-row mt-5">
                 <div class="grid flex-grow card bg-base-100 rounded-box p-4">
                   <ul className="text-left">
-                  <li className="text-xl font-semibold">1. Html5</li>
-                  <li className="text-xl font-semibold">2. Css3</li>
-                  <li className="text-xl font-semibold">3. Bootstrap</li>
-                  <li className="text-xl font-semibold">4. Tailwind</li>
-                  <li className="text-xl font-semibold">5. JavaScript</li>
+                    <li className="text-xl font-semibold">1. Html5</li>
+                    <li className="text-xl font-semibold">2. Css3</li>
+                    <li className="text-xl font-semibold">3. Bootstrap</li>
+                    <li className="text-xl font-semibold">4. Tailwind</li>
+                    <li className="text-xl font-semibold">5. JavaScript</li>
                   </ul>
                 </div>
                 <div class="divider lg:divider-horizontal"></div>
                 <div class="grid flex-grow card bg-base-100 rounded-box p-4">
                   <ul className="text-left">
-                  <li className="text-xl font-semibold">6. React</li>
-                  <li className="text-xl font-semibold">7. Node js</li>
-                  <li className="text-xl font-semibold">8. Mongodb</li>
-                  <li className="text-xl font-semibold">9. Firebase</li>
-                  <li className="text-xl font-semibold">10. DaisyUi</li>
+                    <li className="text-xl font-semibold">6. React</li>
+                    <li className="text-xl font-semibold">7. Node js</li>
+                    <li className="text-xl font-semibold">8. Mongodb</li>
+                    <li className="text-xl font-semibold">9. Firebase</li>
+                    <li className="text-xl font-semibold">10. DaisyUi</li>
                   </ul>
+                </div>
+                <div className="text-center ml-5">
+                  <span className="text-2xl text-primary font-bold text-center py-2 border-b-4 w-3xl mx-auto border-primary">
+                    My Project Link
+                  </span>
+                  <div className="p-4 text-left">
+                  <a className="hover:text-primary text-xl font-semibold" target="_blank" href="https://ahsan855.github.io/2nd-Assignment/">1. Influencer products</a><br />
+                  <a className="hover:text-primary text-xl font-semibold"  target="_blank" href="https://naughty-raman-ac6147.netlify.app/">2. Weading PhotoGraphy</a><br />
+                  <a className="hover:text-primary text-xl font-semibold"  target="_blank" href="https://digital-geaget.netlify.app/">3. Digital Market</a><br />
+                  <a className="hover:text-primary text-xl font-semibold"  target="_blank" href=" https://digital-photography-5c5f5.web.app/">4. Ditital PhotoGraphy</a> <br />
+                  <a className="hover:text-primary text-xl font-semibold"  target="_blank" href=" https://book-store-e6ec1.web.app/">5. Book Store</a>
+                  </div>
                 </div>
               </div>
             </div>
