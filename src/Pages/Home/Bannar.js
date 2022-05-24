@@ -3,7 +3,8 @@ import image from "../../images/banner.jpg";
 
 const Bannar = () => {
   return (
-    <div className="py-32 opacity-100 hover:opacity-70" style={{ backgroundImage: `url(${image})` }}>
+    <div className="py-32" style={{ backgroundImage: `url(${image})` }}>
+
       <div className="hero">
         <div className="hero-content text-left">
           <div className="text-left ml-[-160px]">
