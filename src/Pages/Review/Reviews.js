@@ -1,15 +1,20 @@
 import React from "react";
 
-const Reviews = ( {review} ) => {
-  const  {name, comments, image}  = review;
+const Reviews = ({ review }) => {
+  const { name, comments } = review;
   return (
     <div class="card w-96 bg-base-100 shadow-xl">
-  <figure><img src={image} alt="Shoes" /></figure>
-  <div class="card-body">
-    <h2 class="card-title">{name}</h2>
-    <p>{comments}</p>
-  </div>
-</div>
+      <figure>
+        <img
+          src="https://wp.brator.xyz/wp-content/uploads/2021/10/review-01.png"
+          alt="Shoes"
+        />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">{name}</h2>
+        <p>{comments}</p>
+      </div>
+    </div>
   );
 };
 
