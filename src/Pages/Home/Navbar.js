@@ -36,6 +36,14 @@ const Navbar = () => {
           Portfolio
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          className="my-2 mr-5  text-secondary font-semibold"
+          to="/purchase/:id"
+        >
+          Percheas
+        </NavLink>
+      </li>
 
       {user && (
         <li>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Product = ({ allProduct }) => {
   const {
@@ -10,6 +11,11 @@ const Product = ({ allProduct }) => {
     minorderedqty,
     availableQuantity,
   } = allProduct;
+  const navigate = useNavigate()
+  const navigateHandler = (id)=>{
+
+    navigate(`/purchase/${id}`)
+  }
   return (
     <div className="card w-96 bg-base-100 shadow-xl mx-auto mt-20">
       <figure>
@@ -52,7 +58,7 @@ const Product = ({ allProduct }) => {
           </div>
         </p>
         <div className="card-actions justify-start mt-4">
-          <button className="btn btn-primary btn-outline">Book Now</button>
+          <button onClick={()=>navigateHandler(_id)} className="btn btn-primary btn-outline">Book Now</button>
         </div>
       </div>
     </div>

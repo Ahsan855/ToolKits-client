@@ -11,6 +11,7 @@ import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Home/Navbar";
 import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
+import Perches from "./Pages/Perches/Perches";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Review from "./Pages/Review/Review";
 import Footer from "./Pages/Share/Footer";
@@ -32,6 +33,7 @@ function App() {
           <Route path="addreview" element={<AddReview />} />
           <Route path="myprofile" element={<MyProfile />} />
         </Route>
+        <Route path="/purchase/:id" element={<Perches/>}></Route>
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
