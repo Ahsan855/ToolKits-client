@@ -33,7 +33,7 @@ const Portfolio = () => {
               About Me
             </h1>
             <h2 className="text-2xl font-bold">
-              Name: Muhammad Ahsan Habib (Rifat)
+            <span className="text-primary text-2xl">Name:</span> Muhammad Ahsan Habib (Rifat)
             </h2>
             <h2 className="text-xl">
               <span className="text-primary text-2xl">Email:</span>{" "}
