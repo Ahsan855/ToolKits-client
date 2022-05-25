@@ -6,7 +6,6 @@ import section1 from "../../images/section1.jpg";
 import section2 from "../../images/section2.jpg";
 import Products from "../Product/Products";
 import Contact from "../Contact/Contact";
-
 const Section = () => {
   return (
     <>

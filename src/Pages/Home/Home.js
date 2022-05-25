@@ -1,4 +1,5 @@
 import React from 'react';
+import Review from '../Review/Review';
 import Bannar from './Bannar';
 import Section from './Section';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Bannar/>
             <Section/>
+            <Review/>
         </div>
     );
 };
