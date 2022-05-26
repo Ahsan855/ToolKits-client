@@ -11,11 +11,10 @@ const Product = ({ allProduct }) => {
     minorderedqty,
     availableQuantity,
   } = allProduct;
-  const navigate = useNavigate()
-  const navigateHandler = (id)=>{
-
-    navigate(`/purchase/${id}`)
-  }
+  const navigate = useNavigate();
+  const navigateHandler = (id) => {
+    navigate(`/purchase/${id}`);
+  };
   return (
     <div className="card w-96 bg-base-100 shadow-xl mx-auto mt-20">
       <figure>
@@ -28,37 +27,42 @@ const Product = ({ allProduct }) => {
         <p className="text-xl">AvailableQantity : {availableQuantity}</p>
         <p className="text-xl">Price : $ {Price}</p>
         <p>
-          <div class="rating gap-1">
+          <div className="rating gap-1">
             <input
               type="radio"
               name="rating-3"
-              class="mask mask-heart bg-red-400"
+              className="mask mask-heart bg-red-400"
             />
             <input
               type="radio"
               name="rating-3"
-              class="mask mask-heart bg-orange-400"
+              className="mask mask-heart bg-orange-400"
               checked
             />
             <input
               type="radio"
               name="rating-3"
-              class="mask mask-heart bg-yellow-400"
+              className="mask mask-heart bg-yellow-400"
             />
             <input
               type="radio"
               name="rating-3"
-              class="mask mask-heart bg-lime-400"
+              className="mask mask-heart bg-lime-400"
             />
             <input
               type="radio"
               name="rating-3"
-              class="mask mask-heart bg-green-400"
+              className="mask mask-heart bg-green-400"
             />
           </div>
         </p>
         <div className="card-actions justify-start mt-4">
-          <button onClick={()=>navigateHandler(_id)} className="btn btn-primary btn-outline">Book Now</button>
+          <button
+            onClick={() => navigateHandler(_id)}
+            className="btn btn-primary btn-outline"
+          >
+            Book Now
+          </button>
         </div>
       </div>
     </div>

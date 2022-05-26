@@ -32,15 +32,19 @@ const Section = () => {
         </div>
       </div>
       <div className="text-center p-10">
-        <h1 className="text-center mb-10"><span className="text-3xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary">Business Sumarray</span></h1>
-        <div class="stats shadow">
-          <div class="stat px-20">
-            <div class="stat-figure text-primary">
+        <h1 className="text-center mb-10">
+          <span className="text-3xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary">
+            Business Sumarray
+          </span>
+        </h1>
+        <div className="stats shadow">
+          <div className="stat px-20">
+            <div className="stat-figure text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                class="inline-block w-8 h-8 stroke-current"
+                className="inline-block w-8 h-8 stroke-current"
               >
                 <path
                   stroke-linecap="round"
@@ -50,18 +54,18 @@ const Section = () => {
                 ></path>
               </svg>
             </div>
-            <div class="stat-title">Total Likes</div>
-            <div class="stat-value text-primary">25.6K</div>
-            <div class="stat-desc">21% more than last month</div>
+            <div className="stat-title">Total Likes</div>
+            <div className="stat-value text-primary">25.6K</div>
+            <div className="stat-desc">21% more than last month</div>
           </div>
 
-          <div class="stat px-20">
-            <div class="stat-figure text-secondary">
+          <div className="stat px-20">
+            <div className="stat-figure text-secondary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                class="inline-block w-8 h-8 stroke-current"
+                className="inline-block w-8 h-8 stroke-current"
               >
                 <path
                   stroke-linecap="round"
@@ -71,22 +75,22 @@ const Section = () => {
                 ></path>
               </svg>
             </div>
-            <div class="stat-title">Page Views</div>
-            <div class="stat-value text-secondary">2.6M</div>
-            <div class="stat-desc">21% more than last month</div>
+            <div className="stat-title">Page Views</div>
+            <div className="stat-value text-secondary">2.6M</div>
+            <div className="stat-desc">21% more than last month</div>
           </div>
 
-          <div class="stat px-20">
-            <div class="stat-figure text-secondary">
-              <div class="avatar online">
-                <div class="w-16 rounded-full">
+          <div className="stat px-20">
+            <div className="stat-figure text-secondary">
+              <div className="avatar online">
+                <div className="w-16 rounded-full">
                   <img src="https://api.lorem.space/image/face?w=128&h=128" />
                 </div>
               </div>
             </div>
-            <div class="stat-value">86%</div>
-            <div class="stat-title">Tasks done</div>
-            <div class="stat-desc text-secondary">31 tasks remaining</div>
+            <div className="stat-value">86%</div>
+            <div className="stat-title">Tasks done</div>
+            <div className="stat-desc text-secondary">31 tasks remaining</div>
           </div>
         </div>
       </div>

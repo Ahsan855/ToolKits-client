@@ -13,20 +13,20 @@ const Portfolio = () => {
       <div>
         <MyPortfolis />
       </div>
-      <div class="hero min-h-screen bg-base-200 py-10">
-        <div class="hero-content grid grid-cols-1 md:grid-cols-2">
+      <div className="hero min-h-screen bg-base-200 py-10">
+        <div className="hero-content grid grid-cols-1 md:grid-cols-2">
           <div className="mt-[-160px]">
             <img
               src="https://scontent.fjsr11-1.fna.fbcdn.net/v/t1.6435-9/200188989_2539933372976640_8658966690412354404_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEkL6_0Wq57PrxBshOHCpwyh8E5QQiYltKHwTlBCJiW0hfjWMhKcCIfj0qAIgiMEa02qYzqz1rCYXG4ZlPW1N3n&_nc_ohc=Da9ZSdD1ORMAX82Du7B&_nc_ht=scontent.fjsr11-1.fna&oh=00_AT9Y19B97S0evCLwlnUKKjBBkwDBBxt0yPFkGUjab1VG6w&oe=62B28F40"
-              class="max-w-sm rounded-lg shadow-2xl border-4 border-primary p-2"
+              className="max-w-sm rounded-lg shadow-2xl border-4 border-primary p-2"
               alt=""
             />
           </div>
           <div className="mt-10">
-            <h1 class="text-5xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
+            <h1 className="text-5xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
               My Portfolio
             </h1>
-            <p class="py-6 text-secondary">
+            <p className="py-6 text-secondary">
               Hello World ! i'm Muhammad Ahsan Habib, a Font-End Web Devloper
               based out of Toronto. From choreography on a state to lines a code
               on a web page, I love combining the worlds of logic and creative
@@ -40,7 +40,7 @@ const Portfolio = () => {
               york in the contact from below or check me out.
             </p>
             <div>
-              <h1 class="text-2xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
+              <h1 className="text-2xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mb-4 pb-4">
                 About Me
               </h1>
               <h2 className="text-2xl font-bold">
@@ -65,8 +65,8 @@ const Portfolio = () => {
                 </span>
                 <br />
 
-                <div class="flex flex-col w-full lg:flex-row mt-5">
-                  <div class="grid flex-grow card bg-base-100 rounded-box p-4">
+                <div className="flex flex-col w-full lg:flex-row mt-5">
+                  <div className="grid flex-grow card bg-base-100 rounded-box p-4">
                     <ul className="text-left">
                       <li className="text-xl font-semibold">1. Html5</li>
                       <li className="text-xl font-semibold">2. Css3</li>
@@ -75,8 +75,8 @@ const Portfolio = () => {
                       <li className="text-xl font-semibold">5. JavaScript</li>
                     </ul>
                   </div>
-                  <div class="divider lg:divider-horizontal"></div>
-                  <div class="grid flex-grow card bg-base-100 rounded-box p-4">
+                  <div className="divider lg:divider-horizontal"></div>
+                  <div className="grid flex-grow card bg-base-100 rounded-box p-4">
                     <ul className="text-left">
                       <li className="text-xl font-semibold">6. React</li>
                       <li className="text-xl font-semibold">7. Node js</li>
@@ -205,7 +205,7 @@ const Portfolio = () => {
       </div>
       <div className="py-20 grid grid-cols-1 md:grid-cols-2 px-16 lg:grid-cols-3 gap-10">
         <div className="border-4 border-primary rounded-lg p-4">
-          <h1 className="text-2xl text-primary mt-5 text-center hover:underline cursor-pointer">
+          <h1 className="text-2xl text-primary my-10 text-center hover:underline cursor-pointer ">
             <a
               target="_blank"
               href="https://ahsan855.github.io/2nd-Assignment/"
@@ -213,9 +213,9 @@ const Portfolio = () => {
               Project1
             </a>
           </h1>
-          <a target="_blank" href="https://ahsan855.github.io/2nd-Assignment/">
+          <a className="w-3/6 mx-auto" target="_blank" href="https://ahsan855.github.io/2nd-Assignment/">
             {" "}
-            <img className="mix-h-screen  mx-auto" src={image1} alt="" />
+            <img className="image-w-fluid" src={image1} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
@@ -224,8 +224,8 @@ const Portfolio = () => {
               Project2
             </a>
           </h1>
-          <a target="_blank" href="https://book-store-e6ec1.web.app/">
-            <img className="max-h-screen mx-auto" src={image2} alt="" />
+          <a className="w-3/6 mx-auto"  target="_blank" href="https://book-store-e6ec1.web.app/">
+            <img src={image2} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
@@ -234,8 +234,8 @@ const Portfolio = () => {
               Project3
             </a>
           </h1>
-          <a target="_blank" href="https://digital-geaget.netlify.app/">
-            <img className="max-h-screen mx-auto" src={image3} alt="" />
+          <a  className="w-3/6 mx-auto" target="_blank" href="https://digital-geaget.netlify.app/">
+            <img src={image3} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
@@ -247,8 +247,8 @@ const Portfolio = () => {
               Project4
             </a>
           </h1>
-          <a target="_blank" href="https://digital-photography-5c5f5.web.app/">
-            <img className="max-h-screen mx-auto" src={image4} alt="" />
+          <a  className="w-3/6 mx-auto" target="_blank" href="https://digital-photography-5c5f5.web.app/">
+            <img src={image4} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
@@ -257,8 +257,8 @@ const Portfolio = () => {
               Project5
             </a>
           </h1>
-          <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
-            <img className="max-h-screen mx-auto" src={image5} alt="" />
+          <a  className="w-3/6 mx-auto" target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+            <img src={image5} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
@@ -267,8 +267,8 @@ const Portfolio = () => {
               Project6
             </a>
           </h1>
-          <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
-            <img className="max-h-screen mx-auto" src={image6} alt="" />
+          <a className="w-3/6 mx-auto" target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+            <img src={image6} alt="" />
           </a>
         </div>
       </div>

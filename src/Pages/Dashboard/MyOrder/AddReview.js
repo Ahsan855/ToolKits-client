@@ -22,36 +22,41 @@ const AddReview = () => {
       .then((data) => console.log(data));
   };
   return (
-    <div class=" py-10">
-      <h1 className="text-3xl m-10 text-primary font-semibold text-center"> Add Review</h1>
-      <div class=" flex-col lg:flex-row-reverse">
-        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl  mx-auto">
-          <div class="card-body">
+    <div className=" py-10">
+      <h1 className="text-3xl m-10 text-primary font-semibold text-center">
+        {" "}
+        Add Review
+      </h1>
+      <div className=" flex-col lg:flex-row-reverse">
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl  mx-auto">
+          <div className="card-body">
             <form onSubmit={handleReview}>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Name </span>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Name </span>
                 </label>
                 <input
                   type="text"
                   name="name"
                   placeholder="name"
-                  class="input input-bordered input-primary w-full max-w-xs" 
+                  className="input input-bordered input-primary w-full max-w-xs"
                 />
               </div>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Review</span>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Review</span>
                 </label>
                 <input
                   type="text"
                   name="review"
                   placeholder="write a review"
-                  class="input input-bordered input-primary w-full max-w-xs" 
+                  className="input input-bordered input-primary w-full max-w-xs"
                 />
               </div>
-              <div class="form-control mt-6">
-                <button class="btn btn-primary hover:text-white">Add a Review</button>
+              <div className="form-control mt-6">
+                <button className="btn btn-primary hover:text-white">
+                  Add a Review
+                </button>
               </div>
             </form>
           </div>

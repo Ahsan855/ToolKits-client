@@ -9,31 +9,29 @@ const MyOrder = () => {
   const email = user?.email;
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products?email=${email}`)
+    fetch(`http://localhost:5000/order?email=${email}`)
       .then((res) => res.json())
       .then((data) => setMyOrders(data));
   }, [myOrders]);
   return (
     <div className="p-20">
       <h1 className="text-3xl m-10 text-primary font-semibold"> My Order</h1>
-      <div class="overflow-x-auto">
-        <table class="table table-compact w-full">
+      <div className="overflow-x-auto">
+        <table className="table table-compact w-full">
           <thead>
             <tr>
-              <th>Count</th>
-              <th>Product</th>
+              <th>Num</th>
+              <th>Name</th>
               <th>Email</th>
+              <th>Product name</th>
               <th>Cancel</th>
               <th>Payment</th>
             </tr>
           </thead>
           <tbody>
-            
             {myOrders.map((myOrder, index) => (
               <UseRow myOrder={myOrder} index={index}></UseRow>
             ))}
-          
-            
           </tbody>
         </table>
       </div>
