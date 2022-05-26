@@ -46,7 +46,7 @@ const Perches = () => {
     if (quantity > service.availableQuantity) {
       alert("You cannot order more than the available quantity")
     } else {
-      fetch("http://localhost:5000/order", {
+      fetch("https://lit-dawn-86542.herokuapp.com/order", {
         method: "POST",
         headers: {
           "Content-type": "application/json; charset=UTF-8",
