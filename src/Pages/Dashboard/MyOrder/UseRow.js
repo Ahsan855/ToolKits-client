@@ -1,5 +1,4 @@
 import React from "react";
-import { toast } from "react-toastify";
 
 const UseRow = ({ myOrder, index }) => {
   const { email, name, product, _id } = myOrder;
