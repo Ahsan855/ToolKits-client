@@ -3,10 +3,9 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, NavLink } from "react-router-dom";
 import auth from "../../firebase.init";
-import logo from "../../images/logo.jpg"
+import logo from "../../images/logo.jpg";
 
 const Navbar = () => {
-
   const [user, loading, error] = useAuthState(auth);
   const logout = () => {
     signOut(auth);
@@ -24,7 +23,10 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className="my-2 mr-5  text-secondary font-semibold" to="/contact">
+        <NavLink
+          className="my-2 mr-5  text-secondary font-semibold"
+          to="/contact"
+        >
           Contact
         </NavLink>
       </li>
@@ -36,14 +38,16 @@ const Navbar = () => {
           Portfolio
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          className="my-2 mr-5  text-secondary font-semibold"
-          to="/purchase/:id"
-        >
-          Percheas
-        </NavLink>
-      </li>
+      {user && (
+        <li>
+          <NavLink
+            className="my-2 mr-5  text-secondary font-semibold"
+            to="/purchase/:id"
+          >
+            Percheas
+          </NavLink>
+        </li>
+      )}
 
       {user && (
         <li>
@@ -130,7 +134,6 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal p-0 gap-y-5">{menuItem}</ul>
             </div>
-            
           </div>
         </div>
       </div>

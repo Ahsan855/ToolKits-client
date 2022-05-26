@@ -22,7 +22,8 @@ const AddReview = () => {
       .then((data) => console.log(data));
   };
   return (
-    <div class=" py-40 ">
+    <div class=" py-10">
+      <h1 className="text-3xl m-10 text-primary font-semibold text-center"> Add Review</h1>
       <div class=" flex-col lg:flex-row-reverse">
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl  mx-auto">
           <div class="card-body">
@@ -35,7 +36,7 @@ const AddReview = () => {
                   type="text"
                   name="name"
                   placeholder="name"
-                  class="input input-bordered"
+                  class="input input-bordered input-primary w-full max-w-xs" 
                 />
               </div>
               <div class="form-control">
@@ -46,11 +47,11 @@ const AddReview = () => {
                   type="text"
                   name="review"
                   placeholder="write a review"
-                  class="input input-bordered"
+                  class="input input-bordered input-primary w-full max-w-xs" 
                 />
               </div>
               <div class="form-control mt-6">
-                <button class="btn btn-primary">Add a Review</button>
+                <button class="btn btn-primary hover:text-white">Add a Review</button>
               </div>
             </form>
           </div>

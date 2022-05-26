@@ -40,6 +40,10 @@ const Portfolio = () => {
               muhammadrifathasan9869@gmail.com
             </h2>
             <h2 className="text-xl">
+              <span className="text-primary text-2xl">Contact:</span>{" "}
+              01744154906
+            </h2>
+            <h2 className="text-xl">
               <span className="text-primary text-2xl">Address:</span>{" "}
               Rajshahi,bogra, Bangladesh
             </h2>
