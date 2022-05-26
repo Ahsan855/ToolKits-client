@@ -5,6 +5,7 @@ import image2 from "../../images/MyProject/screencapture-book-store-e6ec1-web-ap
 import image3 from "../../images/MyProject/screencapture-digital-geaget-netlify-app-2022-05-26-11_48_44.png";
 import image4 from "../../images/MyProject/screencapture-digital-photography-5c5f5-web-app-2022-05-26-11_48_56.png";
 import image5 from "../../images/MyProject/screencapture-naughty-raman-ac6147-netlify-app-2022-05-26-11_48_27.png";
+import image6 from "../../images/MyProject/screencapture-localhost-3000-portfolio-2022-05-26-13_43_19.png";
 
 const Portfolio = () => {
   return (
@@ -202,26 +203,73 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-14">
-        <div>
-        <h1 className="text-2xl text-primary pb-5 hover:underline cursor-pointer"><a target='_blank' href="https://ahsan855.github.io/2nd-Assignment/">Project1</a></h1>
-          <img src={image1} alt="" />
+      <div className="py-20 grid grid-cols-1 md:grid-cols-2 px-16 lg:grid-cols-3 gap-10">
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary mt-5 text-center hover:underline cursor-pointer">
+            <a
+              target="_blank"
+              href="https://ahsan855.github.io/2nd-Assignment/"
+            >
+              Project1
+            </a>
+          </h1>
+          <a target="_blank" href="https://ahsan855.github.io/2nd-Assignment/">
+            {" "}
+            <img className="mix-h-screen  mx-auto" src={image1} alt="" />
+          </a>
         </div>
-        <div>
-          <h1 className="text-2xl text-primary pb-5 hover:underline cursor-pointer"><a target='_blank' href="https://book-store-e6ec1.web.app/">Project2</a></h1>
-          <img src={image2} alt="" />
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary my-10 text-center pb-5 hover:underline cursor-pointer">
+            <a target="_blank" href="https://book-store-e6ec1.web.app/">
+              Project2
+            </a>
+          </h1>
+          <a target="_blank" href="https://book-store-e6ec1.web.app/">
+            <img className="max-h-screen mx-auto" src={image2} alt="" />
+          </a>
         </div>
-        <div>
-        <h1 className="text-2xl text-primary pb-5 hover:underline cursor-pointer"><a target='_blank' href="https://digital-geaget.netlify.app/">Project3</a></h1>
-          <img src={image3} alt="" />
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary my-10 text-center pb-5 hover:underline cursor-pointer">
+            <a target="_blank" href="https://digital-geaget.netlify.app/">
+              Project3
+            </a>
+          </h1>
+          <a target="_blank" href="https://digital-geaget.netlify.app/">
+            <img className="max-h-screen mx-auto" src={image3} alt="" />
+          </a>
         </div>
-        <div>
-        <h1 className="text-2xl text-primary pb-5 hover:underline cursor-pointer"><a target='_blank' href="https://digital-photography-5c5f5.web.app/">Project4</a></h1>
-          <img src={image4} alt="" />
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary  my-10 text-center pb-5 hover:underline cursor-pointer">
+            <a
+              target="_blank"
+              href="https://digital-photography-5c5f5.web.app/"
+            >
+              Project4
+            </a>
+          </h1>
+          <a target="_blank" href="https://digital-photography-5c5f5.web.app/">
+            <img className="max-h-screen mx-auto" src={image4} alt="" />
+          </a>
         </div>
-        <div>
-        <h1 className="text-2xl text-primary pb-5 hover:underline cursor-pointer"><a target='_blank' href="https://naughty-raman-ac6147.netlify.app/">Project5</a></h1>
-          <img src={image5} alt="" />
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary my-10 text-center pb-5 hover:underline cursor-pointer">
+            <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+              Project5
+            </a>
+          </h1>
+          <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+            <img className="max-h-screen mx-auto" src={image5} alt="" />
+          </a>
+        </div>
+        <div className="border-4 border-primary rounded-lg p-4">
+          <h1 className="text-2xl text-primary my-10 text-center pb-5 hover:underline cursor-pointer">
+            <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+              Project6
+            </a>
+          </h1>
+          <a target="_blank" href="https://naughty-raman-ac6147.netlify.app/">
+            <img className="max-h-screen mx-auto" src={image6} alt="" />
+          </a>
         </div>
       </div>
     </>

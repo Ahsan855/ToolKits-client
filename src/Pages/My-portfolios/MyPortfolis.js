@@ -4,7 +4,7 @@ import image2 from "../../images/image 1.png";
 
 const MyPortfolis = () => {
   return (
-    <div className="mt-28">
+    <div className="mt-28 mb-20">
       <div class="grid grid-cols-1 md:grid-cols-2">
         <div>
           <div class="w-3/5 my-auto ml-20 border-l-4 border-primary pl-4">
