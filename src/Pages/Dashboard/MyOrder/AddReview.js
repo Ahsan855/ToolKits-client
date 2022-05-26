@@ -10,7 +10,7 @@ const AddReview = () => {
       comments: review,
     };
     console.log(userReview);
-    const url = `http://localhost:5000/review`;
+    const url = `https://lit-dawn-86542.herokuapp.com/review`;
     fetch(url, {
       method: "POST",
       headers: {

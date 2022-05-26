@@ -11,7 +11,7 @@ const Perches = () => {
   console.log(user);
 
   useEffect(() => {
-    const url = `http://localhost:5000/products/${id}`;
+    const url = `https://lit-dawn-86542.herokuapp.com/products/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setService(data));

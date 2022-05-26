@@ -20,7 +20,7 @@ const MyProfile = () => {
       dist: dist,
       phone: phone,
     };
-    const url = "http://localhost:5000/profile";
+    const url = "https://lit-dawn-86542.herokuapp.com/profile";
     fetch(url, {
       method: "POST",
       body: JSON.stringify(profile),
