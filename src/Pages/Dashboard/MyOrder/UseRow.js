@@ -4,7 +4,7 @@ const UseRow = ({ myOrder, index }) => {
   const { email, name, product, _id } = myOrder;
 
   const deleteHandler = (id) => {
-    fetch(`http://localhost:5000/order/${_id}`, {
+    fetch(`https://lit-dawn-86542.herokuapp.com/order/${_id}`, {
       method: "delete",
     })
       .then((res) => res.json())
