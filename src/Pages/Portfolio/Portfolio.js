@@ -215,7 +215,7 @@ const Portfolio = () => {
           </h1>
           <a className="w-3/6 mx-auto" target="_blank" href="https://ahsan855.github.io/2nd-Assignment/">
             {" "}
-            <img className="h-50" src={image1} alt="" />
+            <img className="w-50" src={image1} alt="" />
           </a>
         </div>
         <div className="border-4 border-primary rounded-lg p-4">
