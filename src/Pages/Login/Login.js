@@ -52,7 +52,9 @@ const Login = () => {
         <div className="card-body">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="form-control">
-              <h2 className="text-3xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mt-2">login</h2>
+              <h2 className="text-3xl font-bold text-primary text-center border-b-4 w-3xl mx-auto border-primary mt-2">
+                You login
+              </h2>
               <label className="label">
                 <span className="text-primary">Your Email</span>
               </label>
@@ -125,14 +127,21 @@ const Login = () => {
           <div className="flex justify-center py-2 ">
             <div className="">
               <Link to="/signup">
-                <span className="text-secondary hover:underline">Create a new account?</span>
+                <span className="text-secondary hover:underline">
+                  Create a new account?
+                </span>
                 <span className="text-primary text-xl"> Signup</span>
               </Link>
             </div>
           </div>
 
           <div className="divider">OR</div>
-          <button className="btn btn-outline btn-primary" onClick={() => signInWithGoogle()}>Google With Continue </button>
+          <button
+            className="btn btn-outline btn-primary"
+            onClick={() => signInWithGoogle()}
+          >
+            Google With Continue{" "}
+          </button>
         </div>
       </div>
     </div>
